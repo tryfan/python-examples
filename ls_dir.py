@@ -5,4 +5,4 @@ def ls_dir(path):
         print(os.path.join(path, name))
 
 if __name__ == '__main__':
-    print_directory_contents('.')
+    ls_dir('.')
