@@ -1,6 +1,6 @@
 import os
 
-def print_directory_contents(path):
+def ls_dir(path):
     for name in os.listdir(path):
         print(os.path.join(path, name))
 
